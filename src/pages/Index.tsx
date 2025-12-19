@@ -1,5 +1,6 @@
 import { Globe, Link2, Settings, FileCode, MessageCircle, Mail, Phone, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import SuccessCasesSection from "@/components/sections/SuccessCasesSection";
 
 const WHATSAPP_NUMBER = "5541995915693";
 const WHATSAPP_MESSAGE = encodeURIComponent("Olá! Gostaria de solicitar um orçamento.");
@@ -170,6 +171,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <SuccessCasesSection />
+
 
       {/* CTA Section */}
       <section id="contato" className="py-20 md:py-28 bg-primary">
