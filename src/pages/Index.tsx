@@ -16,9 +16,9 @@ const Index = () => {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">II</span>
+              <span className="text-primary-foreground font-bold text-sm">IT</span>
             </div>
-            <span className="font-semibold text-foreground">Integra INC</span>
+            <span className="font-semibold text-foreground">Integra Tech</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#servicos" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Serviços</a>
@@ -38,7 +38,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-up tracking-tight">
-              Integra INC
+              Integra Tech
               <span className="block text-primary mt-2">Consultoria Especializada</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-up-delay-1 font-medium">
@@ -74,7 +74,7 @@ const Index = () => {
               Soluções completas para transformar e otimizar os processos da sua empresa
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {/* Service 1 */}
             <div className="group p-8 bg-card rounded-xl border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300">
@@ -188,7 +188,7 @@ const Index = () => {
                   (41) 9 9591-5693
                 </a>
               </Button>
-              <Button variant="outline" size="xl" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground" asChild>
+              <Button variant="outline" size="xl" className="border-primary-foreground/30  hover:bg-primary-foreground/10 hover:text-primary-foreground" asChild>
                 <a href={emailLink}>
                   <Mail className="w-5 h-5" />
                   {EMAIL}
@@ -207,27 +207,27 @@ const Index = () => {
               <div className="text-center md:text-left">
                 <div className="flex items-center justify-center md:justify-start gap-2 mb-3">
                   <div className="w-8 h-8 rounded-lg bg-primary-foreground flex items-center justify-center">
-                    <span className="text-foreground font-bold text-sm">II</span>
+                    <span className="text-foreground font-bold text-sm">IT</span>
                   </div>
-                  <span className="font-semibold text-background">Integra INC – Consultoria Especializada</span>
+                  <span className="font-semibold text-background">Integra Tech – Consultoria Especializada</span>
                 </div>
                 <p className="text-background/60 text-sm">
                   Atendimento remoto para todo o Brasil
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row items-center gap-6 text-background/80 text-sm">
-                <a 
-                  href={whatsappLink} 
-                  target="_blank" 
+                <a
+                  href={whatsappLink}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-background transition-colors"
                 >
                   <Phone className="w-4 h-4" />
                   (41) 9 9591-5693
                 </a>
-                <a 
+                <a
                   href={emailLink}
-                  className="flex items-center gap-2 hover:text-background transition-colors"
+                  className="flex items-center gap-2  hover:text-background transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                   {EMAIL}
@@ -236,7 +236,7 @@ const Index = () => {
             </div>
             <div className="border-t border-background/10 mt-8 pt-8 text-center">
               <p className="text-background/40 text-sm">
-                © {new Date().getFullYear()} Integra INC. Todos os direitos reservados.
+                © {new Date().getFullYear()} Integra Tech. Todos os direitos reservados.
               </p>
             </div>
           </div>
