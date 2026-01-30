@@ -20,6 +20,28 @@ const CASES: CaseItem[] = [
             "Maior controle operacional, padronização de processos e redução de retrabalho no dia a dia.",
     },
     {
+        name: "Grupo Arion",
+        segment: "Serviços de tecnologia",
+        delivered: [
+            "Consultoria em ERP Senior",
+            "Customização de relatórios",
+            "Automações de processos internos",
+        ],
+        result:
+            "Mais tempo ganho para focar no core business, com processos internos mais eficientes e integrados.",
+    },
+    {
+        name: "Regimar Agropecuária",
+        segment: "Agronegócio",
+        delivered: [
+            "Consultoria em ERP Senior",
+            "Atuamatizações bancários com importações de extratos financeiros",
+            "Customizações em relatórios gerenciais",
+        ],
+        result:
+            "As automações reduziram o tempo gasto em tarefas manuais, aumentando a eficiência operacional e a precisão dos dados financeiros.",
+    },
+    {
         name: "Brasão do Pampa",
         segment: "Indústria / Comércio",
         delivered: [
@@ -91,7 +113,7 @@ export default function SuccessCasesSection() {
                         <div>
                             <p className="text-base font-semibold">Quer ser o próximo case?</p>
                             <p className="text-sm text-muted-foreground">
-                                Fale com a Integra INC e entenda como podemos ajudar com soluções
+                                Fale com a Integra Tech e entenda como podemos ajudar com soluções
                                 sob medida.
                             </p>
                         </div>
