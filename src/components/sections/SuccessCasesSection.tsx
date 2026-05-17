@@ -63,7 +63,7 @@ const CASES: CaseItem[] = [
             "Processos mais eficientes, maior aderência do ERP ao negócio e ganho operacional no uso do sistema.",
     },
     {
-        name: "Fritz Distrubuidora de Materiais Elétricos",
+        name: "Fritz Distribuidora de Materiais Elétricos",
         segment: "Atacado e distribuição",
         delivered: [
             "Processo automatico de gestão de custos e preços ",
@@ -71,7 +71,7 @@ const CASES: CaseItem[] = [
             "Suporte técnico contínuo",
         ],
         result:
-            "Processos mais eficientes, maior aderência do ERP ao negócio e ganho operacional no uso do sistema.",
+            "Vendas mais eficientes e preços atualizados de forma automática.",
     },
 ];
 
