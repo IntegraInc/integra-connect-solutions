@@ -62,6 +62,17 @@ const CASES: CaseItem[] = [
         result:
             "Processos mais eficientes, maior aderência do ERP ao negócio e ganho operacional no uso do sistema.",
     },
+    {
+        name: "Fritz Distrubuidora de Materiais Elétricos",
+        segment: "Atacado e distribuição",
+        delivered: [
+            "Processo automatico de gestão de custos e preços ",
+            "Força de vendas mobile integrada ao ERP Senior",
+            "Suporte técnico contínuo",
+        ],
+        result:
+            "Processos mais eficientes, maior aderência do ERP ao negócio e ganho operacional no uso do sistema.",
+    },
 ];
 
 export default function SuccessCasesSection() {
